@@ -57,6 +57,7 @@ nav a:hover,
 nav li.active a {
   color: var(--branding-color);
 }
+
 footer {
   margin: 60px 0;
 }
