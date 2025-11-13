@@ -60,6 +60,11 @@ nav li.active a {
 .equal-height {
   height: 520px;
 }
+.bxl {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+}
 footer {
   margin: 60px 0;
 }
@@ -175,6 +180,7 @@ footer .social-links a:hover {
   h1 {
     font-size: 50px;
     padding-bottom: 20px;
+    line-height: normal;
   }
   h2 {
     font-size: 30px;
@@ -194,12 +200,16 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
   }
+  .equal-height {
+    height: auto;
+  }
 }
 
 @media (max-width: 550px) {
   .section h1 {
     font-size: 25px;
     margin: 0;
+    line-height: normal;
   }
   .content {
     line-height: 56px;
